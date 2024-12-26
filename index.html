@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>PSMusic - Your Music, Your Way</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Optional: Include Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <nav class="sidebar">
+      <div class="logo">
+        <h2>PSMusic</h2>
+      </div>
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Search</a></li>
+        <li><a href="#">Library</a></li>
+        <li><a href="#">Premium</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <!-- Header -->
+      <header>
+        <div class="header-left">
+          <input type="text" placeholder="Search for music..." class="search-bar">
+        </div>
+        <div class="header-right">
+          <img src="user-avatar.jpg" alt="User Avatar" class="user-avatar">
+          <span class="username">Hello, User!</span>
+        </div>
+      </header>
+
+      <!-- Music Player Section -->
+      <section class="music-player">
+        <div class="music-info">
+          <img src="album-cover.jpg" alt="Album Cover" class="album-cover">
+          <div class="track-info">
+            <h3 class="track-name">Track Name</h3>
+            <p class="artist-name">Artist Name</p>
+          </div>
+        </div>
+        <div class="controls">
+          <button class="prev-track">Prev</button>
+          <button class="play-pause">Play</button>
+          <button class="next-track">Next</button>
+        </div>
+        <input type="range" class="volume-slider" min="0" max="100" value="50">
+      </section>
+
+      <!-- Track List Section -->
+      <section class="track-list">
+        <h2>Popular Tracks</h2>
+        <ul>
+          <li class="track-item">
+            <span class="track-name">Track 1</span> - <span class="artist-name">Artist 1</span>
+          </li>
+          <li class="track-item">
+            <span class="track-name">Track 2</span> - <span class="artist-name">Artist 2</span>
+          </li>
+          <li class="track-item">
+            <span class="track-name">Track 3</span> - <span class="artist-name">Artist 3</span>
+          </li>
+          <!-- Add more tracks as needed -->
+        </ul>
+      </section>
+    </div>
+  </div>
+  
+  <script src="app.js"></script> <!-- Include JS for music control if needed -->
+</body>
+</html>

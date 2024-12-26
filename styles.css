@@ -1,0 +1,152 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    background-color: #1e1e1e;
+    color: #fff;
+  }
+  
+  .container {
+    display: flex;
+    width: 100%;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #121212;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sidebar .logo {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 40px;
+  }
+  
+  .sidebar .menu {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar .menu li {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar .menu li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .sidebar .menu li a:hover {
+    color: #1db954;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    border-radius: 20px;
+    border: none;
+  }
+  
+  .user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .username {
+    margin-left: 10px;
+  }
+  
+  .music-player {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  
+  .music-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .album-cover {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  
+  .track-info h3 {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .track-info p {
+    font-size: 16px;
+    margin: 0;
+    color: #b3b3b3;
+  }
+  
+  .controls button {
+    background-color: #1db954;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  
+  .controls button:hover {
+    background-color: #1ed760;
+  }
+  
+  .volume-slider {
+    width: 200px;
+    background: #535353;
+    border-radius: 10px;
+  }
+  
+  .track-list h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .track-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .track-item {
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  
+  .track-item .track-name {
+    font-weight: bold;
+  }
+  
+  .track-item .artist-name {
+    color: #b3b3b3;
+  }
+  
